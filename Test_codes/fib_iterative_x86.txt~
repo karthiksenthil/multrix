@@ -1,0 +1,36 @@
+The x86 instructions for the Fibonacci iterative program :
+
+1. push rbp
+2. mov rbp, rsp
+3. sub rsp, 0x20
+4. mov dword ptr [rbp-0x14], 0x0
+5. mov dword ptr [rbp-0x10], 0x1
+6. mov dword ptr [rbp-0x8], 0x5
+7. mov edx, dword ptr [rbp-0x10]
+8. mov eax, dword ptr [rbp-0x14]
+9. mov esi, eax
+10. mov edi, 0x4006e4
+11. mov eax, 0x0
+12. call 0x4004a0
+13. mov dword ptr [rbp-0xc], 0x2
+14. jmp 0x400628
+15. mov eax, dword ptr [rbp-0x10]
+16. mov edx, dword ptr [rbp-0x14]
+17. add eax, edx
+18. mov dword ptr [rbp-0x4], eax
+19. mov eax, dword ptr [rbp-0x4]
+20. mov esi, eax
+21. mov edi, 0x4006eb
+22. mov eax, 0x0
+23. call 0x4004a0
+24. mov eax, dword ptr [rbp-0x10]
+25. mov dword ptr [rbp-0x14], eax
+26. mov eax, dword ptr [rbp-0x4]
+27. mov dword ptr [rbp-0x10], eax
+28. add dword ptr [rbp-0xc], 0x1
+29. mov eax, dword ptr [rbp-0xc]
+30. cmp eax, dword ptr [rbp-0x8]
+31. jl 0x4005f9
+32. mov eax, 0x0
+33. leave 
+34. ret

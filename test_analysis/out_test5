@@ -1,0 +1,82 @@
+push rbp
+mov dword ptr [rbp-0x8], 0x1
+add dword ptr [rbp-0x4], 0x1
+add dword ptr [rbp-0x4], 0x1
+add dword ptr [rbp-0x8], 0x1
+add dword ptr [rbp-0x8], 0x1
+cmp dword ptr [rbp-0x8], 0x4
+mov edx, dword ptr [rbp-0x4]
+call 0x400430
+leave 
+ret 
+Instruction 0x400524 writes to memory 0x7fff116008e0
+Instruction 0x40052c writes to memory 0x7fff116008d8
+Instruction 0x40053d reads from memory 0x7fff116008d8
+140733484894424
+Instruction 0x400535 reads from memory 0x7fff116008dc
+140733484894428
+Instruction 0x400535 writes to memory 0x7fff116008dc
+Instruction 0x400539 reads from memory 0x7fff116008d8
+140733484894424
+Instruction 0x400539 writes to memory 0x7fff116008d8
+Instruction 0x40053d reads from memory 0x7fff116008d8
+140733484894424
+Instruction 0x400535 reads from memory 0x7fff116008dc
+140733484894428
+Instruction 0x400535 writes to memory 0x7fff116008dc
+Instruction 0x400539 reads from memory 0x7fff116008d8
+140733484894424
+Instruction 0x400539 writes to memory 0x7fff116008d8
+Instruction 0x40053d reads from memory 0x7fff116008d8
+140733484894424
+Instruction 0x400535 reads from memory 0x7fff116008dc
+140733484894428
+Instruction 0x400535 writes to memory 0x7fff116008dc
+Instruction 0x400539 reads from memory 0x7fff116008d8
+140733484894424
+Instruction 0x400539 writes to memory 0x7fff116008d8
+Instruction 0x40053d reads from memory 0x7fff116008d8
+140733484894424
+Instruction 0x400535 reads from memory 0x7fff116008dc
+140733484894428
+Instruction 0x400535 writes to memory 0x7fff116008dc
+Instruction 0x400539 reads from memory 0x7fff116008d8
+140733484894424
+Instruction 0x400539 writes to memory 0x7fff116008d8
+Instruction 0x40053d reads from memory 0x7fff116008d8
+140733484894424
+Instruction 0x400548 reads from memory 0x7fff116008dc
+140733484894428
+Instruction 0x400555 writes to memory 0x7fff116008c8
+Instruction 0x40055a reads from memory 0x7fff116008e0
+140733484894432
+Instruction 0x40055b reads from memory 0x7fff116008e8
+140733484894440
+4
+I am Fini
+First Written RBP: 0x7fff116008e0
+140733484894432
+Memory Address : 0x7fff116008c8
+Writing Instructions
+0x400555
+Memory Address : 0x7fff116008d8
+Writing Instructions
+0x40052c
+0x400539
+0x400539
+0x400539
+0x400539
+Memory Address : 0x7fff116008dc
+Writing Instructions
+0x400535
+0x400535
+0x400535
+0x400535
+Memory Address : 0x7fff116008e0
+Writing Instructions
+0x400524
+0x400535 depends on 0x400535
+0x400539 depends on 0x400539
+0x40053d depends on 0x400539
+0x400548 depends on 0x400535
+0x40055a depends on 0x400524

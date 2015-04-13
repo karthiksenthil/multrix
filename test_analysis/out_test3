@@ -1,0 +1,49 @@
+push rbp
+mov dword ptr [rbp-0x4], 0x14
+sub dword ptr [rbp-0x4], 0x5
+sub dword ptr [rbp-0x4], 0x5
+cmp dword ptr [rbp-0x4], 0xa
+sub dword ptr [rbp-0x4], 0x1
+sub dword ptr [rbp-0x4], 0x1
+mov eax, dword ptr [rbp-0x4]
+mov dword ptr [rbp-0x8], eax
+mov edx, dword ptr [rbp-0x8]
+call 0x400430
+leave 
+ret 
+Instruction 0x400524 writes to memory 0x7fffbdb4e4c0
+Instruction 0x40052c writes to memory 0x7fffbdb4e4bc
+Instruction 0x400533 reads from memory 0x7fffbdb4e4bc
+140736376136892
+Instruction 0x400533 writes to memory 0x7fffbdb4e4bc
+Instruction 0x400537 reads from memory 0x7fffbdb4e4bc
+140736376136892
+Instruction 0x40053d reads from memory 0x7fffbdb4e4bc
+140736376136892
+Instruction 0x40053d writes to memory 0x7fffbdb4e4bc
+Instruction 0x400551 reads from memory 0x7fffbdb4e4b8
+140736376136888
+Instruction 0x40055e writes to memory 0x7fffbdb4e4a8
+Instruction 0x400563 reads from memory 0x7fffbdb4e4c0
+140736376136896
+Instruction 0x400564 reads from memory 0x7fffbdb4e4c8
+140736376136904
+0
+I am Fini
+First Written RBP: 0x7fffbdb4e4c0
+140736376136896
+Memory Address : 0x7fffbdb4e4a8
+Writing Instructions
+0x40055e
+Memory Address : 0x7fffbdb4e4bc
+Writing Instructions
+0x40052c
+0x400533
+0x40053d
+Memory Address : 0x7fffbdb4e4c0
+Writing Instructions
+0x400524
+0x400533 depends on 0x40052c
+0x400537 depends on 0x400533
+0x40053d depends on 0x400533
+0x400563 depends on 0x400524

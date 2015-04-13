@@ -1,0 +1,145 @@
+push rbp
+mov dword ptr [rbp-0x4], 0x0
+mov dword ptr [rbp-0x8], 0x0
+add dword ptr [rbp-0x4], 0x1
+add dword ptr [rbp-0x4], 0x1
+add dword ptr [rbp-0x8], 0x1
+add dword ptr [rbp-0x8], 0x1
+cmp dword ptr [rbp-0x8], 0x9
+mov edx, dword ptr [rbp-0x4]
+call 0x400430
+leave 
+ret 
+Instruction 0x400524 writes to memory 0x7fff49f78850
+Instruction 0x40052c writes to memory 0x7fff49f7884c
+Instruction 0x400533 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40053c reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40053c writes to memory 0x7fff49f7884c
+Instruction 0x400540 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x400540 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40053c reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40053c writes to memory 0x7fff49f7884c
+Instruction 0x400540 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x400540 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40053c reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40053c writes to memory 0x7fff49f7884c
+Instruction 0x400540 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x400540 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40053c reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40053c writes to memory 0x7fff49f7884c
+Instruction 0x400540 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x400540 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40053c reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40053c writes to memory 0x7fff49f7884c
+Instruction 0x400540 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x400540 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40053c reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40053c writes to memory 0x7fff49f7884c
+Instruction 0x400540 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x400540 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40053c reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40053c writes to memory 0x7fff49f7884c
+Instruction 0x400540 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x400540 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40053c reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40053c writes to memory 0x7fff49f7884c
+Instruction 0x400540 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x400540 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40053c reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40053c writes to memory 0x7fff49f7884c
+Instruction 0x400540 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x400540 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40053c reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40053c writes to memory 0x7fff49f7884c
+Instruction 0x400540 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x400540 writes to memory 0x7fff49f78848
+Instruction 0x400544 reads from memory 0x7fff49f78848
+140734434347080
+Instruction 0x40054f reads from memory 0x7fff49f7884c
+140734434347084
+Instruction 0x40055c writes to memory 0x7fff49f78838
+Instruction 0x400561 reads from memory 0x7fff49f78850
+140734434347088
+Instruction 0x400562 reads from memory 0x7fff49f78858
+140734434347096
+10
+I am Fini
+First Written RBP: 0x7fff49f78850
+140734434347088
+Memory Address : 0x7fff49f78838
+Writing Instructions
+0x40055c
+Memory Address : 0x7fff49f78848
+Writing Instructions
+0x400533
+0x400540
+0x400540
+0x400540
+0x400540
+0x400540
+0x400540
+0x400540
+0x400540
+0x400540
+0x400540
+Memory Address : 0x7fff49f7884c
+Writing Instructions
+0x40052c
+0x40053c
+0x40053c
+0x40053c
+0x40053c
+0x40053c
+0x40053c
+0x40053c
+0x40053c
+0x40053c
+0x40053c
+Memory Address : 0x7fff49f78850
+Writing Instructions
+0x400524
+0x40053c depends on 0x40053c
+0x400540 depends on 0x400540
+0x400544 depends on 0x400540
+0x40054f depends on 0x40053c
+0x400561 depends on 0x400524
