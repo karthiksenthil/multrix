@@ -13,5 +13,4 @@ Running instructions
 > pin.sh -t obj-intel64/multrix.so  -- ./Test_codes/test_binaries/&lt;binary_name&gt;
 
 
-** Note : **
-Pin is the Intel DBI framework which can be downloaded [here](https://software.intel.com/en-us/articles/pintool-downloads)  
+<b>Note:</b> Pin is the Intel DBI framework which can be downloaded [here](https://software.intel.com/en-us/articles/pintool-downloads)  
