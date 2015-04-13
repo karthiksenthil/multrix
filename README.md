@@ -1,6 +1,5 @@
 MULTRIX
 ===================
-----------
 
 Compile instructions
 -------
