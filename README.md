@@ -13,7 +13,7 @@ make obj-intel64/multrix.so
 
 To run the pintool on sample test programs
 ```bash
-pin.sh -t obj-intel64/multrix.so -- ./Test_codes/test_binaries/&lt;binary_name&gt; 
+pin.sh -t obj-intel64/multrix.so -- ./Test_codes/test_binaries/<binary_name>; 
 ```
 
 ## Working
